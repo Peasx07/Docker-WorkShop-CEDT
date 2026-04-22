@@ -28,7 +28,7 @@ FROM node:20.11-slim
 
 WORKDIR /app
 
-# TODO(step-4e): copy the fully-installed app from the builder stage.
+# TODO(step-4e): copy the fully-installed app from the builder stag...
 COPY --from=builder /app .
 
 ENV NODE_ENV=production
